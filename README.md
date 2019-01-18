@@ -3,7 +3,7 @@
 ---
 
 ## 效果演示
-![image](https://github.com/1014156094/vue-audio-player/blob/master/public/1.gif?raw=true)
+![image](https://github.com/1014156094/vue-rate/blob/master/public/1.gif?raw=true)
 
 ## 注意事项
 组件CSS使用 `less` 预编译语言

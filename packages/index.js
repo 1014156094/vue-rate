@@ -1,8 +1,4 @@
-import './fonts'
-import AudioPlayer from './audio-player/index.vue'
-
 const components = [
-  AudioPlayer
 ]
 
 const install = Vue => {
@@ -17,7 +13,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export {
-  AudioPlayer
 }
 
 export default {
