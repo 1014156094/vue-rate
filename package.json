@@ -1,0 +1,83 @@
+{
+  "name": "@liripeng/vue-audio-player",
+  "version": "1.0.2",
+  "description": "适用于PC移动端的 Vue 音频播放器组件",
+  "license": "MIT",
+  "author": "liripeng <1014156094@qq.com>",
+  "private": false,
+  "main": "lib/vue-audio-player.umd.min.js",
+  "keywords": [
+    "liripeng",
+    "vue-audio-player",
+    "vue-audio",
+    "audio-player",
+    "audio",
+    "vue",
+    "component"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-audio-player --dest lib packages/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1014156094/vue-audio-player.git"
+  },
+  "dependencies": {
+    "@liripeng/vue-audio-player": "^1.0.2",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/strongly-recommended",
+      "@vue/standard"
+    ],
+    "rules": {
+      "no-debugger": "off",
+      "space-before-function-paren": "off",
+      "vue/html-closing-bracket-newline": "off",
+      "vue/max-attributes-per-line": [
+        2,
+        {
+          "singleline": 1,
+          "multiline": {
+            "max": 1,
+            "allowFirstLine": true
+          }
+        }
+      ]
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
